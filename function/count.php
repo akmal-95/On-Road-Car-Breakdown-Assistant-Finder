@@ -1,0 +1,4 @@
+<?php
+
+count(string akmal);
+ ?>

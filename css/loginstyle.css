@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+html, body, .root {
+  height: 100%;
+  width: 100%;
+  font-family: 'Open Sans';
+}
+.root {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #33444c;
+  color: #fff;
+  font-weight: 500;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  width: 160px;
+}
+.title {
+  font-size: 30px;
+}
+.subtitle {
+  color: #8299a5;
+  font-size: 15px;
+  margin-bottom: 30px
+}
+.field {
+  margin-bottom: 20px;
+}
+.label {
+  display: none;
+}
+.input {
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #222;
+  font-size: 18px;
+  background: #33444c;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  transition: 200ms;
+  outline: none;
+  color: #fff;
+  width: 380px;
+  cursor: pointer;
+  text-align: center;
+  &::placeholder {
+    color: #8aabba;
+  }
+  &:hover {
+    background: #3c505a;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+  }
+  &:focus-within {
+    border-color: #fff;
+  }
+}
+.button {
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #09347b;
+  font-size: 18px;
+  background: #0060ff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  transition: 200ms;
+  outline: none;
+  color: #fff;
+  width: 412px;
+  cursor: pointer;
+  &:hover {
+    background: #2b7bff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+  }
+}
+.link {
+  color: #ffffff;
+  text-decoration: none;
+}
+.action {
+  color: #8299a5;
+  font-size: 15px;
+}

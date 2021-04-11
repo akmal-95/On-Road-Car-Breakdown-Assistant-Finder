@@ -1,0 +1,249 @@
+* { margin: 0px; padding: 0px; }
+body {
+	font-size: 120%;
+	background-color: white;
+}
+.header {
+	width: 100%;
+	margin: 50px auto 0px;
+	color: white;
+	background: #5F9EA0;
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+}
+
+.header {
+  background: #003366;
+}
+button[name=update] {
+  background: #003366;
+  margin: 0px auto;
+}
+button[name=delete] {
+  background: #003366;
+  margin: 0px auto;
+
+}
+
+.centerr{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	width: 200px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+background-color: #003366;
+overflow: hidden;
+width: 100%;
+margin: 0px auto;
+padding: 20px;
+border: 1px solid #B0C4DE;
+border-radius: 0px 0px 10px 10px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+float: left;
+color: white;
+text-align: center;
+padding: 14px 32px;
+text-decoration: none;
+font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+background-color: white;
+color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+background-color: #4CAF50;
+color: white;
+}
+
+.side-nav{
+  height:100%;
+  width:0;
+  position:fixed;
+  z-index:1;
+  top:0;
+  left:0;
+  background-color:#111;
+  opacity:0.9;
+  overflow-x:hidden;
+  padding-top:60px;
+  transition:0.5s;
+}
+
+.side-nav a{
+  padding:10px 10px 10px 30px;
+  text-decoration:none;
+  font-size:23px;
+  color:white;
+  display:block;
+  transition:0.3s;
+}
+
+.side-nav a:hover{
+  color:#fff;
+}
+
+.side-nav .btn-close{
+  position:absolute;
+  top:0;
+  right:22px;
+  font-size:36px;
+  margin-left:50px;
+}
+
+.content {
+	width: 100%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+	font-family:"Arial", Serif;
+	background-color:white;
+	overflow-x:hidden;
+}
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+	height: 670px;
+	width: 22%;
+	background-color:white;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+	height: 100%;
+	background-color:white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+	background-color:white;
+	bacground: white;
+  display: table;
+  clear: both;
+}
+
+
+
+.input-group {
+	margin: 10px 0px 10px 0px;
+}
+.input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+.input-group input {
+	height: 35px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+#user_type {
+	height: 40px;
+	width: 98%;
+	padding: 5px 10px;
+	background: white;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.btn {
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: #5F9EA0;
+	border: none;
+	border-radius: 5px;
+}
+.error {
+	width: 92%;
+	margin: 0px auto;
+	padding: 10px;
+	border: 1px solid #a94442;
+	color: #a94442;
+	background: #f2dede;
+	border-radius: 5px;
+	text-align: left;
+}
+.success {
+	color: #3c763d;
+	background: #dff0d8;
+	border: 1px solid #3c763d;
+	margin-bottom: 20px;
+}
+.profile_info img {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+	float: left;
+	margin-left: auto;
+ 	margin-right: auto;
+}
+.profile_info div {
+	display: inline-block;
+	margin: 5px;
+}
+.profile_info:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.profile_info_1 img {
+	display: block;
+	width: 200px;
+	height: 200px;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+.profile_info_1 div {
+	display: inline-block;
+	text-align: center;
+	margin: 5px;
+}
+.profile_info_1:after {
+	content: "";
+	display: block;
+	clear: both;
+	text-align: center;
+}
+
+#map{
+	height: 700px;
+	width:100%;
+}
+
+.special_ul li img {
+  display: block;
+  margin: 0 auto;
+}
+.special_ul li{
+    padding-right: 10px;
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+}
